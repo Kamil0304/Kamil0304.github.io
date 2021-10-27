@@ -1,5 +1,6 @@
 body{
     color: #404040;
+    background-image: url("images/silverware.jpg");
     background-color: #FFFFFF;
     font-size: 11pt;
     font-family: Georgia, Garamond;
@@ -46,4 +47,7 @@ ul {
 ul li:before {
     content: url('images/pie_bullet.png');
     padding-left: 5px;
+}
+.footer{
+    float: right;
 }
