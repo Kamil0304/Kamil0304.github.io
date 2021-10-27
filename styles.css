@@ -1,0 +1,68 @@
+.body{
+
+    background-color: #8a8585;
+}
+.main{
+
+    width: 100%;
+    background-color:bisque;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #97bff8;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    width: 100%;   
+}
+.intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+}
+.p1{
+    font-family: 'Times New Roman';
+    font-weight: 100;
+    font-style: italic;
+    font-size: large;
+    font: bolder;
+
+}
+
+
+.happyphoto{
+    width: 300px;
+    height: 150px;
+}
+
+.Sadphoto{
+    width: 300px;
+    height: 150px;
+}
+
+.Exhaustedphoto{
+    width: 300px;
+    height: 200px;
+}
+
+.footer
+{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+  
+   }
+   .validators{
+    float: right;
+
+   }
+   .bodyINdex{
+       background-color: #8a8585;
+   }
