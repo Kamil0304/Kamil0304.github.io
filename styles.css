@@ -2,6 +2,11 @@
 
     background-color: #8a8585;
 }
+p::first-letter{
+font-size: 1.5em;
+float: left;
+color: #0e0d0d;
+}
 .main{
 
     width: 100%;
@@ -46,6 +51,7 @@ h6 {
     width: 300px;
     height: 150px;
 }
+a:hover { color:crimson; }
 
 .Exhaustedphoto{
     width: 300px;
