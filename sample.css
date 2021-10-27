@@ -83,5 +83,18 @@ div {
   .e {
     background: #fff;
     }
+    body {
+        /* image to place in background */
+        background-color: #777;
+        /* How bg image should be repeated */
+        /* can be repeat (default), repeat-x, repeat-y, or 
+        no-repeat */
+        background-repeat: repeat-x;
+        /* placement of bg image within element */ /* 
+        value consists of two tokens, can be top, left, 
+        right, bottom, center, a percentage, or a length 
+        value in px, pt, etc */
+        background-position: 270px 20px;
+        }
   
 

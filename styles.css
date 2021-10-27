@@ -13,7 +13,19 @@ color: #0e0d0d;
     background-color:bisque;
 
 }
-
+img {
+    width: 150px;
+    border-radius: 50px;
+  }
+  .username {
+    font-weight: bold;
+    font-variant: normal;
+    
+  }
+  p.description {
+    font-style: italic;
+    font-size: medium;
+  }
 h1,
 h2,
 h3,
