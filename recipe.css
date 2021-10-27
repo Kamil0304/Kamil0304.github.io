@@ -50,4 +50,5 @@ ul li:before {
 }
 .footer{
     float: right;
+    text-align: right;
 }
