@@ -45,7 +45,7 @@ ul {
 }
 
 ul li:before {
-    content: url('images/pie_bullet.png');
+    content: url('images/pie_icon.gif');
     padding-left: 5px;
 }
 .footer{
