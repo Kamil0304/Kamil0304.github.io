@@ -1,0 +1,87 @@
+h2 {
+  border-left: thick dotted #cc0088;
+  border-bottom-color: rgb(0, 128, 128);
+  border-bottom-style: double;
+}
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.div3 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.div4 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.p1 {
+  text-align: center;
+  border: 3px solid blue;
+  border-radius: 12px;
+  border-right: #cc0088;
+  border-width: thick;
+}
+h1 {
+  padding: 200px;
+}
+h2 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+h1 {margin: 20px; }
+h2 {
+margin-left: 5px;
+margin-top: 30px;
+}
+div {
+    margin: 10px;
+    /*padding: 1px;*/
+    /*border: 1px solid white;*/
+  }
+  h2 {
+    /* Can also be overline, line-through, blink, or none. Effects can be 
+    combined */
+    text-decoration:underline;
+    /* Shadow is specified as an X-offset, a Y-offset, and an optional color 
+    */
+    text-shadow: -2px 5px gray;
+    text-decoration-color: blue;
+    }
+    
+  .a {
+    background: #777;
+  }
+  
+  .b {
+    background: #999;
+  }
+  
+  .c {
+    background: #bbb;
+  }
+  
+  .d {
+    background: #ddd;
+  }
+  
+  .e {
+    background: #fff;
+    }
+  
+
