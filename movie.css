@@ -102,7 +102,7 @@ div.leftside .content {
 .content .review  p.article{
     border: 2px solid #6b776b;
     border-radius: 5px;
-    padding: 5px;
+    padding: 6px;
     background-color: #E8DC9B;
     /* font-weight:bold; */
 }
@@ -137,7 +137,6 @@ div.leftside .content {
     text-align: center;
     color: #424e49;
 }
-
 .validators {
     position: fixed;
     right: 0;
