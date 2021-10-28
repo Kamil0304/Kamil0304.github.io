@@ -7,7 +7,7 @@ body{
 }
 
 .banner {
-    background: url(movie_images/banner.png) repeat-x;
+    background: url(movie_images/bannerbg.png) repeat-x;
 }
 
 .banner img {
@@ -63,7 +63,7 @@ body > h1 {
 
 div.rightside dl ul {
     list-style-type: none;
-    display: initial;
+    display:inline-flexbox;
 }
 
 .Biggercontainer div.leftside {
@@ -93,6 +93,7 @@ div.leftside .content {
     column-count: 2;
     column-gap: 10px;
     padding: 10px;
+    margin: 10px;
 }
 
 .content .cols {
@@ -103,7 +104,7 @@ div.leftside .content {
     border: 2px solid #6b776b;
     border-radius: 5px;
     padding: 5px;
-    background-color: #e7dc9a;
+    background-color: #E8DC9B;
     /* font-weight:bold; */
 }
 
