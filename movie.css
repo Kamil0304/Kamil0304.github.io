@@ -63,7 +63,6 @@ body > h1 {
 
 div.rightside dl ul {
     list-style-type: none;
-    display:inline-flexbox;
 }
 
 .Biggercontainer div.leftside {
