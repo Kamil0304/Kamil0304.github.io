@@ -1,0 +1,48 @@
+img{
+    float: right;
+    width: 130px;
+}
+img.hoveringicon {
+     float: right; 
+     margin-right: 1em; }
+
+p { background-color: fuchsia; }
+div.ex1 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: scroll;
+  }
+  
+  div.ex2 {
+    border: black 2px solid;
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+  }
+  
+  div.ex3 {
+    border: black 2px solid;
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: auto;
+  }
+  
+  div.ex4 {
+    border: black 2px solid;
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: visible;
+  }
+
+  div, p { border: 2px solid black; }
+.column { float: right; width: 25%; }
+p {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+  }
