@@ -8,10 +8,14 @@ body{
 
 .banner {
     background: url(movie_images/bannerbg.png) repeat-x;
+  
 }
 
 .banner img {
     height: 50px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto
 }
 
 body > h1 {
@@ -142,3 +146,5 @@ div.leftside .content {
     right: 0;
     bottom: 0;
 }
+
+
