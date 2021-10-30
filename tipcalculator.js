@@ -1,19 +1,20 @@
 function tipCalculator( ){
 
-    var subtotalElem = document.getElementById('subtotal');
-	var tipElem = document.getElementById('tip');
-	var totalElem = document.getElementById('total');
-	var subtotal = parseFloat(subtotalElem.value);
-	var tip = (subtotal * parseFloat(tipElem.value))/100;
+    var subtotalElement = document.getElementById('subtotal');
+	var tipElemment = document.getElementById('tip');
+	var totalElemelement = document.getElementById('total');
+	var subtotal = parseFloat(subtotalElement.value);
+	var tip = (subtotal * parseFloat(tipElemment.value))/100;
     if(isNaN(tip)||isNaN(subtotal)){
         alert("Please enter a valid value!");
-        tipElem.value='';
-        subtotalElem.value='';
-	    totalElem.innerHTML = '$';
+        tipElemment.value ='';
+        subtotalElement.value ='';
+	    totalElemelement.innerHTML = '$';
         return;
     }
    
     var total = subtotal+tip;
-    totalElem.innerHTML = '$' + total;
+    totalElemelement.innerHTML = '$' + total;
+
 
 }
