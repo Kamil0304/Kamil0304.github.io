@@ -9,7 +9,6 @@ function tipCalculator( ){
         alert("Please enter a valid value!");
         tipElemment.value ='';
         subtotalElement.value ='';
-	    totalElemelement.innerHTML = '$';
         return;
     }
    
