@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color:black;
+
+}
+
+#list  p {
+    font: arial;
+    font-size: 14px;
+}
+
+iframe
+{
+    width: 1500px;
+    height: 1000px;
+}
+
+body{
+    background-color:darkgrey;
+}
