@@ -23,10 +23,12 @@ color: #0e0d0d;
     text-decoration:dotted;
     color: dimgray;
 }
-img {
+   img {
     width: 150px;
     border-radius: 50px;
   }
+ 
+
   .username {
     font-weight: bold;
     font-variant: normal;
