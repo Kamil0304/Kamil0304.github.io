@@ -50,7 +50,7 @@ const onAnimationStart = () => {
         animation = setInterval(() => {
             document.getElementById("mytextarea").value = animArray[currentFrame];
             currentFrame = (currentFrame === animArray.length - 1) ? 0 : currentFrame + 1;
-        }, delay);
+        },delay);
         document.getElementById("btnstart").disabled = true;
         document.getElementById("btnstop").disabled = false;
         document.getElementById("ddlanimations").disabled=true;

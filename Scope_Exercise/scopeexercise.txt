@@ -75,8 +75,8 @@ A variable referred to by a function that is not one of its parameters or local 
 Answer:
 
 var obj={
-    "name": "fred",
-    "major":"music",
+    "name": "Kamil",
+    "major":"CS",
     "f":function(x,y){
         if(x>y){
             return y;
@@ -98,9 +98,9 @@ function Employee(name, salary, position) {
   this.salary = salary;
   this.position = position;
 }
-var frank = new Employee("Frank Lampard", 80000, "Director");
-var ken = new Person("Ken Jones", 90000, "Manager");
-var afe = new Person("Afework Fita", 180000, "Senior software engineer");
+var frank = new Employee("Abebe Kebede", 80000, "Director");
+var ken = new Person("Steve Jobs", 160000, "CEO");
+var afe = new Person("Kamil Zeberga", 180000, "Senior software engineer");
 =======================================================
 10. Write a Javascript function that takes any number of input arguments and returns the product of the arguments.
 

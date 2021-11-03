@@ -7,7 +7,12 @@ var rudyTimer = (
         var f=function delayMsg2(){
             if(timer===null){
                 timer=setInterval(rudy,1000)
-            }
+                            }
+                            else{
+                                //document.getElementById("btn").innerHTML += " Stop!";
+                                clearInterval(timer);
+                                timer =null;
+                            }
         }
         return f;
     }

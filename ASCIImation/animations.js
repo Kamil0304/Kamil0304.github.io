@@ -29,7 +29,6 @@ var JUGGLER = "   o\n" +
     "  _O_o\n" +
     "  o|\n" +
     "  / \\\n";
-
 var BIKE = "\n" +
     "   _o\n" +
     " _< \\\\_\n" +
