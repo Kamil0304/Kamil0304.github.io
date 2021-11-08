@@ -37,4 +37,15 @@ function findMax() {
 
     var k = (x,y)=>{ return x*y};
     console.log(k(10,80))
+
+
+    var foo = 10;
+function bar() {
+//if (!foo) {
+//var foo = 10;
+//}
+console.log(foo);
+}
+bar();
+
     
