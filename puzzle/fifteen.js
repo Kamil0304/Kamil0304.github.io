@@ -7,6 +7,8 @@ $(document).ready(function() {
     $("#shufflebutton").on('click',shuffleButtonClick);
     //initialize and create the puzzle peices elements
    function init() {
+
+    $("#puzzlearea div").remove();
       var num = 1;
       for (var i = 0; i < rows_columns; i++) {
         for (var j = 0; j < rows_columns; j++) {
